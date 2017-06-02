@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.50);
+}
+
+h1 {
+    font-family: "din-condensed", sans-serif;
+    font-size: 5vw;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h2 {
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4vw;
+    font-weight: 300;
+    top: 3.5vh;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1vw;
+}
+
+#container {
+    max-width: 65vw;
+    margin: auto;
+}
+
+#background-img {
+    z-index: -1;
+    position: fixed;
+    top: -1vh;
+    background-image: url("../img/forest.jpg");
+    width: 65vw;
+    height: 102vh;
+    filter: blur(3px);
+}
+
+.screenshot {
+    position: absolute;
+    width: 25vw;
+    top: 25vh;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.50);
+}
+
+#screenshot-1 {
+    left: 10vw;
+}
+
+#screenshot-2 {
+    left: 37.5vw;
+}
+
+#screenshot-3 {
+    left: 65vw;
+}
+
+.icon {
+    position: absolute;
+    left: 38vw;
+}
+
+.icon-text {
+    position: absolute;
+    left: 42vw;
+    max-width: 20vw;
+    text-align: left;
+    font-size: 1.2vw;
+}
+
+#profile {
+    top: 63vh;
+}
+
+#profile-text {
+    top: 61.7vh;
+}
+
+#favorites {
+    width: 4.5vh;
+    top: 71vh;
+}
+
+#favorites-text {
+    top: 68.4vh;
+}
+
+.longer-text {
+    position: relative;
+    top: 53vh;
+    left: 23vw;
+    max-width: 20vw;
+}
+
+#app-store {
+    position: relative;
+    top: 48.7vh;
+    left: 0.7vw;
+}
+
+#google-play {
+    position: relative;
+    width: 10.7vw;
+    top: 50vh;
+    left: 44.5vw;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="44px" viewBox="0 0 35 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>user</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-25.9%" y="-13.9%" width="155.6%" height="138.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-4" transform="translate(-675.000000, -945.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="user" filter="url(#filter-1)" transform="translate(679.000000, 947.000000)">
+                <path d="M24.0734348,25.7334 L18.4662391,22.8678 C17.9373913,22.5972 17.6086957,22.0536 17.6086957,21.4488 L17.6086957,19.4202 C17.7431087,19.2522 17.8845652,19.0608 18.0307174,18.8496 C18.7579565,17.7996 19.3408043,16.6308 19.764587,15.3702 C20.5927826,14.982 21.1304348,14.145 21.1304348,13.2 L21.1304348,10.8 C21.1304348,10.2222 20.9191304,9.6624 20.5434783,9.225 L20.5434783,6.0336 C20.5763478,5.7036 20.7054783,3.7392 19.3155652,2.1186 C18.1099565,0.7128 16.1536304,0 13.5,0 C10.8463696,0 8.89004348,0.7128 7.68443478,2.118 C6.29452174,3.7386 6.42365217,5.7036 6.45652174,6.0336 L6.45652174,9.225 C6.08086957,9.6624 5.86956522,10.2222 5.86956522,10.8 L5.86956522,13.2 C5.86956522,13.9302 6.19415217,14.6112 6.74823913,15.0654 C7.2858913,17.2416 8.41108696,18.8814 8.80434783,19.4076 L8.80434783,21.393 C8.80434783,21.9738 8.49443478,22.5066 7.9961087,22.785 L2.75986957,25.7046 C1.0571087,26.6544 0,28.4748 0,30.4572 L0,32.4 C0,35.2476 8.83076087,36 13.5,36 C18.1692391,36 27,35.2476 27,32.4 L27,30.5742 C27,28.5114 25.8783261,26.6562 24.0734348,25.7334 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
